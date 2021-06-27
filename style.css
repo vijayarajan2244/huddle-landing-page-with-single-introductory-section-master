@@ -1,0 +1,136 @@
+body{
+    background-image: url(/images/bg-desktop.svg);
+}
+.button>button{
+    background-color: white;
+    color: hsl(257, 40%, 49%);
+    width: 150px;
+    height: 40px;
+    border-radius: 50px;
+    font-weight: bolder;
+    margin-top: 20px;
+}
+.button>button:hover{
+    background-color:hsl(300, 69%, 71%);
+    border: hsl(300, 69%, 71%);
+    color: white;
+    
+       
+}
+.image{
+    margin-top: 80px;
+}
+.logo{
+    margin-top: 30px;
+    
+}
+.right-content{
+    margin-top: 210px;
+    color: white;
+    margin-left: 30px;
+}
+.content{
+    margin-top: 20px;
+    font-size: 18px;
+}
+.icon{
+    margin-left: 410px;
+    margin-top: 130px;
+    font-size: 35px;
+
+}
+.icon>a{
+    color: white;
+    
+}
+.icon>a:hover{
+    color: hsl(300, 69%, 71%);
+}
+.author{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.link{
+    text-decoration: none;
+    color: wheat;
+}
+
+
+/* XS Screen */
+@media screen and (max-width:576px) {
+    body{
+        background-image: url(/images/bg-mobile.svg);
+    }
+    .image{
+        width: 300px;
+        height: 230px;
+        
+        margin-left: 20px;
+    }
+    .right-content{
+        margin-top: 80px;
+        margin-left: 20px;
+    }
+    .icon{
+        margin-left: 120px;
+        display: flex;
+        flex-direction: row;
+        
+    }
+    .author{
+        font-size: 12px;
+    }
+    
+}
+
+/* SM Screen */
+@media screen and (min-width:540px) {
+    .icon{
+        margin-left: 380px;
+    }
+    
+}
+
+/* MD Screen */
+@media screen and (min-width:720px) {
+    .image{
+        margin-top: 140px;
+        width: 350px;
+        height: 300px;
+    }
+    .icon{
+        margin-left: -70px;
+        margin-top: 20px;
+    }
+    .content{
+        font-size: px;
+    }
+    
+}
+
+/* LG Screen */
+@media screen and (min-width:960px) {
+    .image{
+        width: 450px;
+        height: 350px;
+    }
+    .icon{
+        margin-left: 300px;
+    }
+    
+}
+
+/* XXL Screen */
+@media screen and (min-width:1140px) {
+    .image{
+        margin-top:80px;
+        width: 550px;
+        height: 450px;
+    }
+    .icon{
+        margin-top: 110px;
+        margin-left: 380px;
+    }
+    
+}
